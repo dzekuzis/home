@@ -7,6 +7,10 @@
     color: white;
     height: 120px;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
     
 }
 .nav-link {
@@ -19,4 +23,15 @@
 }
 p{
     font-weight: 500;
+    max-width: 500px;
+
+}
+.nav-tabs .nav-link.active{
+    color:blue;
+    background-color: blue;
+    color: white;
+}
+.amogus{
+    display: flex;
+    align-items: center;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import './Header.css';
 
 const Header = () => (
@@ -14,10 +14,10 @@ const Header = () => (
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link" to="/home">Home</Link>
+          <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/home">Home</NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/features">Features</Link>
+          <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to="/features">Features</NavLink>
         </li>
        
       </ul>

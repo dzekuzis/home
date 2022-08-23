@@ -23,8 +23,8 @@ function App() {
           <Route path='/features' element={<Navigate to ='calculator' />} />
         </Route>  
         <Route path='/' element={<Navigate to='/home' />} />
-        
-        
+        <Route path='*' element={<main><p>ERROR 404</p></main>} />
+
       </Routes>
       <Footer />
     </BrowserRouter>
