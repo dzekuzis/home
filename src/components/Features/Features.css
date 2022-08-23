@@ -1,6 +1,6 @@
 .Features {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    text-align: center;
+   
     font-weight: 400;
    
     z-index: 1;
@@ -13,9 +13,10 @@
     color: white;
     
 }
-.nav-tabs{
-    background-color: black;
-}
+
 .p-3{
     background-color: black;
+}
+p{
+    font-weight: 500;
 }

@@ -7,6 +7,8 @@ import Home from './components/Home/Home';
 import Features from './components/Features/Features';
 import Calculator from './components/Calculator/Calculator';
 import TODOlist from './components/TODOlist/TODOlist';
+import Footer from './components/Fotte/Footer';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         
         
       </Routes>
+      <Footer />
     </BrowserRouter>
   
    
