@@ -15,9 +15,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav-link:hover{
-    color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    color: red;
+    
 }
 .navbar{
-    background-color: blue;
+    background-color:black;
+}
+.mImage{
+    position:relative;
+    top: 4px;
 }

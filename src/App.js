@@ -18,8 +18,10 @@ function App() {
         <Route path='/features' element={<Features />}>
           <Route path='calculator' element={<Calculator />} />
           <Route path='todolist' element={<TODOlist />} />
+          <Route path='/features' element={<Navigate to ='calculator' />} />
         </Route>  
         <Route path='/' element={<Navigate to='/home' />} />
+        
         
       </Routes>
     </BrowserRouter>

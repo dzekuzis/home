@@ -2,10 +2,11 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     text-align: center;
     font-weight: 400;
-    background-image: url("https://images.hgmsites.net/hug/2023-bmw-m4-gt4-race-car_100845097_h.jpg");
+   
     z-index: 1;
     color: white;
     height: 120px;
+    background-color: black;
     
 }
 .nav-link {

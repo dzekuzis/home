@@ -42,8 +42,8 @@
     
 }
 .display{
-    background-color:purple;
-    color:red;
+    background-color: blue;
+    color:white;
     width: 400px;
     display: flex;
     justify-content: flex-end;
@@ -56,7 +56,7 @@
 
 }
 button:hover{
-    background-color: red;
+    background-color: blue;
     color: black;
 }
 .App{
@@ -65,13 +65,10 @@ display: flex;
 flex-direction: column;
 align-items:flex-start;
 text-align: center;
-background-image: url("https://images.hgmsites.net/hug/2023-bmw-m4-gt4-race-car_100845097_h.jpg");
-height: 1000px;
+background-image: url("https://www.bmw-motorsport.com/content/dam/bmw/marketBMWSPORTS/bmw-motorsport_com/assets/bmw-m-motorsport/race-cars/bmw-m4-gt4-2023/bmw-m4-gt4-stage-teaser-01.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1655285283212.jpg");
+height: 687px;
 color: white;
 background-repeat: no-repeat;
+
     
-    
-}
-.app h1{
-  
 }
