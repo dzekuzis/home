@@ -23,6 +23,7 @@
 .mImage{
     position:relative;
     top: 2px;
+    margin-right: 10px;
 }
 .Header{
     position: sticky;
@@ -32,4 +33,6 @@
 .bmwImage{
     position: relative;
     bottom: 4px;
+    margin-right: 0px;
+    padding-right: 0px;
 }

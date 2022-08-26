@@ -19,7 +19,7 @@
     
 }
 
-.p-3 {
+.bckgrnd {
     background: rgb(20,108,255);
     background: linear-gradient(90deg, rgba(20,108,255,1) 0%, rgba(0,43,196,1) 25%, rgba(242,5,13,1) 100%);
 }

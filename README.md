@@ -1,3 +1,7 @@
+*insert mandatory text here about app n shiet yada yada text text text idk dont ask lol*
+
+information how to launch this app is down below =>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

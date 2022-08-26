@@ -11,12 +11,12 @@ import './TODOlist.css';
 let flexContainer = {
   height: "100vh",
   display: "flex",
-  alignItems: "center",
+  alignItems: "flex-start",
   justifyContent: "center",
 };
 
 let customW65 = {
-  width: "65%",
+  width: "100%",
 };
 let customW35 = {
   width: "30%",
@@ -69,21 +69,21 @@ const TODOlist = () => {
 
  
   return (
-    <div style={flexContainer}>
-      <div className="card w-25 text-bg-light">
-        <div className="card-body">
-          <h1 className="card-title">To Do List For Car</h1>
-          <div className="row p-3">
+    <div className='mainas' style={flexContainer}>
+      <div className="amogi card w-25 text-bg-light mt-5 ">
+        <div className="card-body cardas">
+          <h1 className="card-title titul">To Do List For Car</h1>
+          <div className="row p-3 asdf">
            <form onChange={handleInput}>
-            {error && <div className='text-danger text-center pb-1' >{error}</div>}
+            {error && <div className='text-danger text-center pb-1 fs-3' >{error}</div>}
              <input
               id="input"
               type="text"
-              className="form-control"
+              className="form-control inputus"
               style={customW65}
               ref={itemInput}
              />
-            <button  className="btn btn-secondary" style={customW35} onClick={handleClick}>
+            <button  className="baton btn btn-secondary batonus" style={customW35} onClick={handleClick}>
               Click
             </button>
            </form>
@@ -94,13 +94,13 @@ const TODOlist = () => {
                 <li key={idx} className="list-group-item">
                   {item.name}
                 
-                  <button className="btn btn-warning float-end" onClick={() => { deleteItem(idx); }}>
+                  <button className="btn btn-warning float-end batonasDEl" onClick={() => { deleteItem(idx); }}>
                     Delete
                   </button>
                 </li>
               ))
             ) : (
-              <div className=''>No items found!</div>
+              <div className='sad' >No items found!</div>
             )}
           </ul>
         </div>

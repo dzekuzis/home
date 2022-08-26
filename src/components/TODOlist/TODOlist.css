@@ -1,4 +1,64 @@
 .TODOlist {}
-.card .w-25 .text-bg-light{
+
+.mainas{
+    background-image: url('https://www.bmw-motorsport.com/content/dam/bmw/marketBMWSPORTS/bmw-motorsport_com/assets/bmw-m-motorsport/race-cars/bmw-m4-gt3/Headerbild_1680x756px.png/jcr:content/renditions/cq5dam.resized.img.1680.large.time1622629851095.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.list-group-item{
+    background-color: blue;
+    color: white;
+    font: 500;
+    font-size: x-large;
+}
+ .cardas{
+    background-color: black;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-color: black;
+    border-width: 0px;
    
+    
+}
+ .asdf{
+    background-color: black;
+}
+.titul{
+    color: white;
+    text-align: center;
+}
+.batonasDEl{
+    color: white;
+    background-color: red;
+    font: 700;
+    font-size: 20px;
+}
+.batonasDEl:hover{
+   background-color:darkblue;
+}
+.batonus{
+    background-color: blue;
+    color: white;
+    font:700;
+    font-size: 20px;
+}
+.batonus:hover{
+    background-color: red;
+}
+.inputus{
+    width: 50px;
+    
+    
+}
+.sad{
+    color: white;
+    margin-left: 15px;
 }
