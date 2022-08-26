@@ -6,7 +6,8 @@
     z-index: 1;
     color: white;
     height: 120px;
-    background-color: black;
+    background: rgb(20,108,255);
+    background: linear-gradient(90deg, rgba(20,108,255,1) 0%, rgba(0,43,196,1) 25%, rgba(242,5,13,1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,17 +19,19 @@
     
 }
 
-.p-3{
-    background-color: black;
+.p-3 {
+    background: rgb(20,108,255);
+    background: linear-gradient(90deg, rgba(20,108,255,1) 0%, rgba(0,43,196,1) 25%, rgba(242,5,13,1) 100%);
 }
 p{
     font-weight: 500;
     max-width: 500px;
+    margin-top: 55px;
 
 }
 .nav-tabs .nav-link.active{
     color:blue;
-    background-color: blue;
+    background-color:red;
     color: white;
 }
 .amogus{

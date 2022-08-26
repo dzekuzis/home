@@ -14,7 +14,7 @@ const Features = () => (
     </p>
   
   </div>
-  <div className='p-3'>
+  <div className='p-3 bckgrnd'>
     <ul className='nav nav-tabs'>
       <li className='nav-item'>
         <NavLink className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} to='/features/calculator'>
